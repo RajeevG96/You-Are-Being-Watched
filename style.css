@@ -1,0 +1,111 @@
+body {
+	font-family: 'Oswald' ;
+	background-color: black;
+	color: white;
+}
+
+.content {
+	 /* Horizonatally centering everything in the "content" sections */
+	max-width: 40em;
+	padding: 0 1em;
+    margin-right: auto;
+    height: 50%;
+	
+} 
+
+.full {
+	height: 70%;
+	
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed; /*Parallax scrolling*/
+}
+
+/*BACKGROUND IMAGES*/
+#UKUSA {
+	/*background-image: url (http://www.guylauzon.ca/wp-content/uploads/2015/06/HoC.jpg);*/
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/72/GCHQ-aerial.jpg);
+}
+
+
+#domes{
+	background-image: url(http://bighdwalls.com/wp-content/uploads/radar-alien-hd-wallpaper1080.jpg);
+}
+
+#data {
+    background-image: url(http://datacentervoice.com/wp-content/uploads/2015/10/data-center.jpg)
+}
+
+#pressconf {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/71/The_Pentagon_is_functioning.jpg)
+}
+
+#protest {
+    background-image: url(http://southfront.org/wp-content/uploads/2015/11/1430464152-anomymous.jpg)
+}
+
+/*CONTENT PICTURES*/
+
+#edward {
+    
+    position: absolute;
+    margin-left: 1023px;
+    margin-top: -119px;
+}
+
+#flags {
+    position: absolute;
+    margin-left: 1200px;
+     margin-top: -100px;
+}
+
+#cctv {
+    position: absolute;
+    margin-left: 1200px;
+     margin-top: -100px;
+}
+
+#spy {
+    background-size: 70%;
+    position: absolute;
+    margin-left: 1200px;
+     margin-top: -100px;
+}
+
+/*Scales picture*/
+
+#scales {
+	
+    position: absolute;
+	left: 50%;
+    right: 50%;
+	margin-top: 390px;
+    margin-left: -150px;
+}
+
+#bottom {
+	background-color: yellow;
+	color: black;
+	padding: 20px;
+	text-align: center;
+	border: 5px hidden;
+
+}
+
+#topbar {
+	background-color: f000000;
+}
+
+#form {
+
+}
+
+.button {
+
+	margin-top: -50px;
+	color: black;
+}
+
+html, body {
+	height: 85%;
+}
